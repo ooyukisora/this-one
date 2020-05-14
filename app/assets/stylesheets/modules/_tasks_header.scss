@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top right, #005aa7, #fffde4);
+  display: flex;
+  justify-content: space-between;
+  &_right{
+    font-size: 30px;
+    padding: 23px;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+  &_left{
+    height: 100%;
+    width: 250px;
+    &_contents{
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+  }
+}
